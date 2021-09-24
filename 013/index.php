@@ -1,8 +1,11 @@
 <?php
 
-function riaz(){
-    echo "My Name";
+$mname="Riazul";
+
+function riaz($lastname,$fname){
+    global $mname;
+    echo " My Name is $fname $mname $lastname";
 }
-return riaz();
+return riaz("islam","Md");
     
 ?>
