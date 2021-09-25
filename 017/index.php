@@ -5,6 +5,7 @@ $number = array("20","10","30");
 
 rsort($cars);
 sort($number);
+// asort($number);
 for($i = 0; $i < 3; $i++){
 
     echo $cars[$i];

@@ -1,16 +1,11 @@
 <?php
 
-$cars = array(
-    array("volvo",22,2018),
-    array("bmw",24,2020),
-    array("toyota",26,2008),
-);
+$x=399;
 
-for($row = 0; $row < 3; $row++){
-
-    echo $row;
-
+function test(){
+    global $x;
+    echo $x;
 }
-
+test();
 
 ?>
