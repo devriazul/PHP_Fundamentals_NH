@@ -6,5 +6,5 @@ $cars = array(
     array("toyota",26,2008),
 );
 
-echo $cars[];
+echo $cars[2][2];
 ?>
