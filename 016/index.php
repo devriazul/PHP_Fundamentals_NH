@@ -6,5 +6,11 @@ $cars = array(
     array("toyota",26,2008),
 );
 
-echo $cars[2][2];
+for($row = 0; $row < 3; $row++){
+
+    echo $row;
+
+}
+
+
 ?>
